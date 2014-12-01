@@ -1,9 +1,9 @@
 <div class="container white-container">
 		<div class="row-fluid">
 			<div class="span12">
-			<hr class="page-hr">
-            <span class="right-list">MUSIC </span><span class="program-bold">- BAND LISTING</span>
-            <hr class="page-hr">
+			<div class="crumb">
+            	<span class="right-list">MUSIC </span><span class="program-bold">- BAND LISTING</span>
+            </div>
 			<?php 
 			 if(isset($bands))
 			 {

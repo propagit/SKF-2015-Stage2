@@ -183,6 +183,10 @@ input[type="text"]:-ms-input-placeholder {
    color: #000 !important; 
    font-weight:500;
 }
+.crumb{
+	border-bottom: 1px solid #f18800;
+	border-top: 1px solid #f18800;	
+}
 /* constants */
 .nav_offset_padding {
      margin-top: 30px;
