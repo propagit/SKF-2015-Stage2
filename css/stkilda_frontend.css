@@ -699,7 +699,13 @@ input[type="text"]:-ms-input-placeholder {
 	background-image: none;
 	text-align: center;
 }
-
+.search-form{
+	padding:0;
+	margin:0;	
+}
+.crumb{
+	padding-bottom:15px;	
+}
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
 .name-on-top{color: #FFFFFF;font-size: 18px;font-weight: 700;margin-top: 76px; position: absolute;text-align: center;width: inherit;}

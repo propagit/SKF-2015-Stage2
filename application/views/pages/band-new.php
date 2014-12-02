@@ -118,5 +118,6 @@ jQuery('#menugap').addClass('hidemenu');
             	<div class="visible-phone" style="height:30px;"></div>
 				<?=$this->load->view('common/right-page');?>
             </div>
-		</div>		
+		</div>	
+        <div style="clear:both;height:30px"></div>	
 </div>

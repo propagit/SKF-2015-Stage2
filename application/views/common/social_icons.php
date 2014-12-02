@@ -32,7 +32,7 @@
          </a>
     </li>
     <li class="hidden-phone">
-    	<form action="<?=base_url()?>page/search_bands_key" method="post">
+    	<form action="<?=base_url()?>page/search_bands_key" method="post" class="search-form">
        	 	<input type="text" id="search-input" name="key" placeholder="search"/>
         </form>
     </li>

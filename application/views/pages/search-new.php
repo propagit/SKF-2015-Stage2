@@ -45,5 +45,6 @@
 			 else {echo 'No Band Will Perform at This Date';}
 			?>
             </div>
-		</div>		
+		</div>	
+        <div style="clear:both;height:30px"></div>	
 </div>
