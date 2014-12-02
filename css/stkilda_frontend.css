@@ -99,6 +99,7 @@ input,  button,  select,  textarea {
 input[type="text"]::-webkit-input-placeholder {
   	color: #f18700;
 }
+
 input[type="text"]:-moz-placeholder { /* Firefox 18- */
   	color: #f18700;
 }
@@ -171,6 +172,7 @@ input[type="text"]:-ms-input-placeholder {
   	color: #000 !important;
 	font-weight:500;
 }
+
 .mob-search-input:-moz-placeholder { /* Firefox 18- */
   	color: #000 !important;
 	font-weight:500;
@@ -182,10 +184,6 @@ input[type="text"]:-ms-input-placeholder {
 .mob-search-input:-ms-input-placeholder {  
    color: #000 !important; 
    font-weight:500;
-}
-.crumb{
-	border-bottom: 1px solid #f18800;
-	border-top: 1px solid #f18800;	
 }
 /* constants */
 .nav_offset_padding {
@@ -422,19 +420,19 @@ input[type="text"]:-ms-input-placeholder {
 	background-color:  #e23c38;
     
 }
-#list-date .date-item{
-	width:10%;	
-}
-#list-date{
+#list-date
+ {
+    
+	background-color:  #e23c38;
+    
 	width:  100%;
-	float:left;
-	padding:10px 0 20px 0;
+    
 }
 #list-date #inner
  {
-	color: #f18800;
-	float:left;
-	width:100%;  
+    
+	color: #fff;
+    
 }
 #list-date .gap
  {
@@ -545,6 +543,7 @@ input[type="text"]:-ms-input-placeholder {
   	background-repeat:  repeat-x;
   	border-color:  #f18800 #f18800 #f18800;
 }
+
 .social_icons .fa{
 	color:#f18800;
 }
@@ -651,6 +650,8 @@ input[type="text"]:-ms-input-placeholder {
 #filter{text-align:center;color:#00d8c5;background: #fff; }
 #filter a{color:#00d8c5;text-decoration: none;cursor:pointer;display: block;width:10%;float:left;}
 #filter a:focus, #filter a:hover{color:#8d00ff;}
+
+
 .bordered-top{
 	border-top: 2px solid #f18800;
 	padding-top:20px;
@@ -698,6 +699,7 @@ input[type="text"]:-ms-input-placeholder {
 	background-image: none;
 	text-align: center;
 }
+
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
 .name-on-top{color: #FFFFFF;font-size: 18px;font-weight: 700;margin-top: 76px; position: absolute;text-align: center;width: inherit;}
@@ -825,6 +827,7 @@ input[type="text"]:-ms-input-placeholder {
 	padding-bottom: 20px;
 	float: left;
 }
+
 }
 @media (min-width:  980px) and (max-width: 1199px){
    .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{
@@ -867,7 +870,7 @@ input[type="text"]:-ms-input-placeholder {
     
 		float: left;
     
-		/*width:  5%;*/
+		width:  5%;
     
 	}
 	#list-date .between-date
@@ -1104,7 +1107,7 @@ input[type="text"]:-ms-input-placeholder {
     
 		float: left;
     
-		/*width:  5%;*/
+		width:  5%;
     
 		font-size: 11px;
     
@@ -1531,6 +1534,7 @@ input[type="text"]:-ms-input-placeholder {
     
 	}
 }
+
 /* Helpers */
 .txt-white{
 	color:#fff !important;	

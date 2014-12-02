@@ -31,9 +31,7 @@
             </span>
          </a>
     </li>
-    <li class="hidden-phone">
-    	<form action="<?=base_url();?>page/search_bands_key" method="post">
-        	<input type="text" id="search-input" placeholder="search" name="key"/>
-        </form>
+    <li class="hidden-phone hidden-desktop">
+        <input type="text" id="search-input" placeholder="search"/>
     </li>
 </ul>
