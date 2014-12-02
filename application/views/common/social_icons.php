@@ -28,10 +28,12 @@
             <span class="fa-stack">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-instagram fa-stack-1x txt-white"></i>
-            </span>
+            </span>	
          </a>
     </li>
     <li class="hidden-phone">
-        <input type="text" id="search-input" placeholder="search"/>
+    	<form action="<?=base_url()?>page/search_bands_key" method="post">
+       	 	<input type="text" id="search-input" name="key" placeholder="search"/>
+        </form>
     </li>
 </ul>
