@@ -69,7 +69,9 @@ $(function(){
 	
     <div id="mob-nav" class="hide">
      	<div class="mob-search-box">
-          <input type="text" class="mob-search-input" placeholder="SEARCH">
+        <form action="<?=base_url()?>page/search_bands_key" method="post" class="search-form">
+          <input type="text" class="mob-search-input" placeholder="SEARCH" name="key">
+        </form>
         </div>
         
         <div class="container header-menu-phone">

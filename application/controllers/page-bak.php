@@ -13,9 +13,8 @@ class Page extends CI_Controller
 		$this->load->model('Gallery_model');
 		$this->load->model('News_sticker_model');
 		$this->load->model('User_model');
+		#$this->output->enable_profiler(TRUE);
 	}
-	
-	
 	
 	function index()
 	{
@@ -25,17 +24,6 @@ class Page extends CI_Controller
 		$data['music_bands'] = $this->Music_band_model->get_homepage_bands();
 		$this->load->view('common/header',$data);
 		$this->load->view('home/home');
-		$this->load->view('common/footer');
-	}
-	
-	function index_test()
-	{
-		//$data['all']=$this->News_sticker_model->get();
-		//$data['music_bands'] = $this->Music_band_model->get_homepage_bands();
-		$data['all']=$this->News_sticker_model->get();
-		$data['music_bands'] = $this->Music_band_model->get_homepage_bands();
-		$this->load->view('common/header',$data);
-		$this->load->view('home/home_test');
 		$this->load->view('common/footer');
 	}
 
@@ -846,16 +834,7 @@ Membership Type: ".$cate."<br/>";
 		//$this->load->view('common/right');
 		//$this->load->view('common/footer');	
 		//$this->load->view('common/header-page');
-		#if($page['right_bar'] == 0)
-		if(0)
-		{
-			$this->load->view('pages/page-new2',$data);
-		}
-		else 
-		{
-			$this->load->view('pages/page-new',$data);
-		}
-		
+		$this->load->view('pages/page-new',$data);
 		//$this->load->view('common/footer-page');
 		$this->load->view('common/footer');	
 	}
@@ -866,16 +845,10 @@ Membership Type: ".$cate."<br/>";
 		$data['menus'] = $this->Menu_model->get_menus();
 		$data['footeradspace'] = $this->News_sticker_model->get_footer_banners();
 		 $data['bands'] = $this->Music_band_model->bands_of_the_day($date);
-        // $this->load->view('common/header',$data);
-        // $this->load->view('pages/today');
-		// $this->load->view('common/right');
-		// $this->load->view('common/footer');	
-		//$this->session->set_flashdata('search_date',date('d F Y'),strtotime($date));
-		$data['search_date'] = date('d F Y',strtotime($date));
-		$this->load->view('common/header',$data);
-		//$this->load->view('common/header-page');
-		$this->load->view('pages/search-new',$data);
-		$this->load->view('common/footer');
+        $this->load->view('common/header',$data);
+        $this->load->view('pages/today');
+		$this->load->view('common/right-page');
+		$this->load->view('common/footer');	
 	}
 	
 	function vote()
@@ -947,7 +920,7 @@ Membership Type: ".$cate."<br/>";
 		$this->pagination->initialize($config);
 		$data['links'] = $this->pagination->create_links();
 		
-		$data['search_date'] = '';
+		
         /*$this->load->view('common/header',$data);
         $this->load->view('pages/search');
 		$this->load->view('common/right');
@@ -2154,7 +2127,6 @@ Market Trader Checklist: <a href='http://www.stkildafestival.com.au/callforentri
 		{
 			$this->load->model('News_sticker_model');
 		    $banner = $this->News_sticker_model->get_footer_banner($id);
-			echo '<pre>'.print_r($banner,true).'</pre>';
 			if($banner)
 			{
 				$this->News_sticker_model->update_footer_banner($banner['id'],array('clicked' => $banner['clicked'] + 1));

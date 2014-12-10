@@ -1,3 +1,5 @@
+<div class="container white-container">
+	
    <div id="page_content_outside">
     <div id="page_content">
      <div id="left_content">    
@@ -59,3 +61,4 @@
 		 //else { echo 'Page Not Found';}?>
       </div> <!-- #content_wrapper -->
      </div> <!-- #left_content -->
+</div>

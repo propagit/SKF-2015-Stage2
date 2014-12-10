@@ -1,4 +1,8 @@
 <div class="container white-container">
+
+		<?php $this->load->view('common/calendar');?>
+        
+        
 		<div class="row-fluid">
 			<div class="span12">
 			<div class="crumb">
