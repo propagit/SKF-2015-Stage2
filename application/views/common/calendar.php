@@ -21,6 +21,7 @@
     
     <div id="mob-calendar" class="visible-phone">
 		<div class="row-fluid">
+        	<div class="today">WHAT'S ON TODAY</div>
         	<?=$calendar_ph;?>
         </div>
 	</div>

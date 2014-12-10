@@ -24,13 +24,13 @@ function validateEmailRight()
 </script>
 <?php $this->load->view('common/calendar_panel');?>
 
-<hr class="page-hr hidden-phone">
+<hr class="page-hr push fw">
 
-<div class="right-list hidden-phone">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
+<div class="right-list center">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
 
 <hr class="page-hr">
 
-<div class="right-list">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></div> 
+<div class="right-list center">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></div> 
 
 <hr class="page-hr">
 

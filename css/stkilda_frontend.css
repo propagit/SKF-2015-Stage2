@@ -720,6 +720,7 @@ input[type="text"]:-ms-input-placeholder {
 	width: 100%;
 	color: #fff;	
 	padding-bottom: 20px;
+	margin-bottom:20px;
 }
 #mob-calendar{
 	background-color:#f18700;
@@ -737,21 +738,6 @@ input[type="text"]:-ms-input-placeholder {
 	color: #fff;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-.box-today{
-	color:#fff;	
-}
-.today{
-	font-weight: 500 !important;
-	font-size: 18px !important;
-	color: #fff !important;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 23px;
-	border-bottom: 4px solid #fff;
-	margin-left: 15px;
-	margin-right: 15px;	
-	margin-bottom: 15px;
 }
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
@@ -1621,4 +1607,7 @@ input[type="text"]:-ms-input-placeholder {
 }
 .pointer{
 	cursor:pointer;	
+}
+.fw{
+	width:100%;	
 }
