@@ -707,7 +707,10 @@ input[type="text"]:-ms-input-placeholder {
 	margin:0;	
 }
 .crumb{
-	padding-bottom:15px;	
+	padding-bottom: 15px;
+	border-bottom: 2px solid #f18800;
+	border-top: 2px solid #f18800;
+	padding-top: 15px;
 }
 #list-date .date-item{
 	float: left;
@@ -721,6 +724,7 @@ input[type="text"]:-ms-input-placeholder {
 	color: #fff;	
 	padding-bottom: 20px;
 	margin-bottom:20px;
+	min-height: 349px;
 }
 #mob-calendar{
 	background-color:#f18700;
@@ -739,6 +743,22 @@ input[type="text"]:-ms-input-placeholder {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.festival-page-links{
+	list-style: none;
+	float: left;
+	width: 100%;
+	padding:0 0 20px 0;
+	margin: 0;
+}
+.festival-page-links li{
+	float:left;
+	padding-right:6.97%;
+}
+.festival-page-links li a{
+	color:#f18700;
+	font-size:16px;	
+}
+
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
 .name-on-top{color: #FFFFFF;font-size: 18px;font-weight: 700;margin-top: 76px; position: absolute;text-align: center;width: inherit;}
@@ -1610,4 +1630,10 @@ input[type="text"]:-ms-input-placeholder {
 }
 .fw{
 	width:100%;	
+}
+.push-text{
+	text-align:left;	
+}
+.pull-text{
+	text-align:right;	
 }

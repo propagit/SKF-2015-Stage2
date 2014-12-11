@@ -3,10 +3,16 @@
 		<?php $this->load->view('common/calendar');?>
         
         
+        <ul class="festival-page-links">
+        	<li><a href="#">VIEW/DOWNLOAD THE PROGRAM</a></li>
+            <li><a href="#">VIEW/DOWNLOAD FESTIVAL SUNDAY MAP</a></li>
+            <li style="padding-right:0;"><a href="#">VOTE FOR A BAND ON THE NEW MUSIC STAGE</a></li>
+        </ul>
+        
 		<div class="row-fluid">
 			<div class="span12">
 			<div class="crumb">
-            	<span class="right-list">MUSIC </span><span class="program-bold">- BAND LISTING</span>
+            	<span class="right-list"><?=$search_date ? strtoupper($search_date) . ' - ' : '';?>MUSIC </span><span class="program-bold">- BAND LISTING</span>
             </div>
 			<?php 
 			 if(isset($bands))

@@ -26,15 +26,15 @@ function validateEmailRight()
 
 <hr class="page-hr push fw">
 
-<div class="right-list center">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
+<div class="right-list">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
 
 <hr class="page-hr">
 
-<div class="right-list center">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></div> 
+<div class="right-list">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></div> 
 
 <hr class="page-hr">
 
-<span class="subheading_content_page" style="margin-bottom: 20px;float: left;text-align: center; width:100%;">Sign up for Festival News, Announcements and Offers</span>
+<span class="subheading_content_page" style="margin-bottom: 20px;float: left;text-align: left; width:100%;">Sign up for Festival News, Announcements and Offers</span>
 <div style="float:none;"><div class="right-list" style="float:left;margin-top:8px; font-weight:500">
 	SUBSCRIBE
 </div>
