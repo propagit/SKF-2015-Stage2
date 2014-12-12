@@ -752,12 +752,22 @@ input[type="text"]:-ms-input-placeholder {
 }
 .festival-page-links li{
 	float:left;
-	padding-right:6.97%;
+	width:33.33%;
 }
 .festival-page-links li a{
 	color:#f18700;
 	font-size:16px;	
 }
+.festival-page-links .first{
+	
+}
+.festival-page-links .second{
+	
+}
+.festival-page-links .last{
+	text-align:right;
+}
+
 
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
@@ -885,6 +895,7 @@ input[type="text"]:-ms-input-placeholder {
 	padding-bottom: 20px;
 	float: left;
 }
+
 
 }
 @media (min-width:  980px) and (max-width: 1199px){
@@ -1080,6 +1091,9 @@ input[type="text"]:-ms-input-placeholder {
     
 		float: left;
     
+	}
+	.festival-page-links li a{
+		font-size:14px;	
 	}
 }
 @media (min-width:  768px) and (max-width: 979px) {
@@ -1325,6 +1339,9 @@ input[type="text"]:-ms-input-placeholder {
 		float: left;
     
 	}
+	.festival-page-links li a{
+		font-size:12px;	
+	}
 }
 @media (max-width: 1200px)
 {
@@ -1547,6 +1564,17 @@ input[type="text"]:-ms-input-placeholder {
 }
 #list-date{
 	margin-bottom:0;	
+}
+.festival-page-links li{
+	width:100%;
+	text-align:center;
+	padding:5px 0;	
+}
+.festival-page-links{
+	padding:10px 0;	
+}
+.festival-page-links li.last{
+	text-align:center;	
 }
 /*band-search*/
 }
