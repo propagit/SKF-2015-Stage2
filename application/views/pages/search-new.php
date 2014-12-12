@@ -4,9 +4,9 @@
         
         
         <ul class="festival-page-links">
-        	<li class="first"><a href="#">VIEW/DOWNLOAD THE PROGRAM</a></li>
-            <li class="second"><a href="#">VIEW/DOWNLOAD FESTIVAL SUNDAY MAP</a></li>
-            <li class="last"><a href="#">VOTE FOR A BAND ON THE MUSIC STAGE</a></li>
+        	<li class="first"><a href="<?=base_url();?>Program">VIEW/DOWNLOAD THE PROGRAM</a></li>
+            <li class="second"><a href="<?=base_url();?>page/pages/93">VIEW/DOWNLOAD FESTIVAL SUNDAY MAP</a></li>
+            <li class="last"><a href="<?=base_url();?>page/pages/91">VOTE FOR A BAND ON THE MUSIC STAGE</a></li>
         </ul>
         
 		<div class="row-fluid">
