@@ -15,13 +15,13 @@
 
 <div id="list-date">
     <div id="inner" class="hidden-phone">
-        <div class="date-item" style="cursor: auto"><span class="day">WHAT'S ON<br>TODAY</span></div>
+        <div class="date-item" style="cursor: auto; text-align:center;"><span class="day" style="float:left;">WHAT'S<br>ON</span></div>
         <?=$calendar_lg;?>
     </div>
     
     <div id="mob-calendar" class="visible-phone">
 		<div class="row-fluid">
-        	<div class="today">WHAT'S ON TODAY</div>
+        	<div class="today">WHAT'S ON</div>
         	<?=$calendar_ph;?>
         </div>
 	</div>

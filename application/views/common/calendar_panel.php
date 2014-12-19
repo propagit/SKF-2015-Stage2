@@ -9,8 +9,8 @@
 		$calendar_ph .=	'<a href="' . base_url() .'page/what_today/' . $date . '"><div class="box-today"><span class="day">' . strtoupper($week_day) . '</span><br>' . strtoupper($day_month) . '</div></a>';
 	}
 ?>
-<div class="panel-calendar">
-	<div class="today">WHAT'S ON TODAY</div>
+<div class="panel-calendar center">
+	<div class="today">WHAT'S ON</div>
     <?=$calendar_ph;?>
 </div>
 
