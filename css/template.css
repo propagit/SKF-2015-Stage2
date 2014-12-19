@@ -5,23 +5,25 @@
 }
 .heading_content_page
 {
-	font-size: 36px; 
-	font-weight:500;
-	line-height:40px; 
-	color:#f18800;
-	font-family:'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #f18800;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px !important;
+	margin-bottom: 15px !important;
 }
 .subheading_content_page
 {
-	font-size: 18px;
-	font-weight:500; 
-	color:#f18800;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color:#dc013d;
 	font-family:'Raleway', sans-serif;
-	line-height:22px;
 }
 .subheading2_content_page
 {
-	font-size: 14px;font-weight:500; color:#dc013d;font-family:'Raleway', sans-serif; line-height:16px;
+	font-size: 14px;font-weight:500; color:#000000;font-family:'Raleway', sans-serif; line-height:16px;margin-bottom:3px;
 }
 .text_content_page
 {
