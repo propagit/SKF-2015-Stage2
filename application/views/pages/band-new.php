@@ -67,7 +67,7 @@ jQuery('#menugap').addClass('hidemenu');
 								  <div class="music-name">'.$song_name1.'</div>
 								</div>
 								  <div style="width:100%;">
-								       <audio src="/2014/uploads/bands/'. $dir.'/music/'.$band['music_link1'].'" controls="controls" style="width:100%; background:#7800FF">
+								       <audio src="/2015/uploads/bands/'. $dir.'/music/'.$band['music_link1'].'" controls="controls" style="width:100%; background:#7800FF">
 										  Fallback content goes here
 										</audio>
 								  </div>
@@ -83,7 +83,7 @@ jQuery('#menugap').addClass('hidemenu');
 						        <div class="music-player">
 								  <div class="music-name">'.$song_name2.'</div>
 								</div>
-								  <div style="float:left;width:60px;height:26px;margin-left:1px"><iframe src="/2014/uploads/bands/mp3-2.php?id='.$dir.'/music" width="60" height="26" frameborder="0" scrolling="no"><p>Your browser does not support iframes.</p></iframe>     </div>
+								  <div style="float:left;width:60px;height:26px;margin-left:1px"><iframe src="/2015/uploads/bands/mp3-2.php?id='.$dir.'/music" width="60" height="26" frameborder="0" scrolling="no"><p>Your browser does not support iframes.</p></iframe>     </div>
 							    
 							  </div>';
 					   }
