@@ -38,7 +38,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
 # calendar start date
-define('CALENDAR_START','2014-02-01');
+define('CALENDAR_START','2015-01-31');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
