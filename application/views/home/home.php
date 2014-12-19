@@ -11,6 +11,12 @@
             <a class="home-lg-btn" href="<?=base_url();?>page/pages/73"><img src="<?=base_url();?>img/btn/btn-live-n-local.jpg" alt="btn-live-n-local.jpg"></a>
             <a class="home-lg-btn" href="<?=base_url();?>page/pages/74"><img src="<?=base_url();?>img/btn/btn-yalukit-wilum-ngargee.jpg" alt="btn-yalukit-wilum-ngargee.jpg"></a>
         </div>
+        
+        <ul class="festival-page-links">
+        	<li class="first"><a href="<?=base_url();?>Program">VIEW/DOWNLOAD THE PROGRAM</a></li>
+            <li class="second"><a href="<?=base_url();?>page/pages/93">VIEW/DOWNLOAD FESTIVAL SUNDAY MAP</a></li>
+            <li class="last"><a href="<?=base_url();?>page/pages/91">VOTE FOR A BAND ON THE MUSIC STAGE</a></li>
+        </ul>
     </div>
     
    
