@@ -10,7 +10,7 @@
 								foreach($ad_banners as $banner){
 							?>
                             <div class="item <?=$count ? '' : 'active';?>">
-                                <a href="#" onclick="track_ads('<?=base_url();?>page/banner/<?=$banner['id'];?>','<?=$banner['name'];?>')">
+                                <a target="_blank" href="<?=$banner['url'];?>" onclick="track_ads('<?=base_url();?>page/banner/<?=$banner['id'];?>','<?=$banner['name'];?>')">
                                     <img style="width: 100%" alt="" src="<?=base_url()?>photos/banners/<?=$banner['name']?>"/>
                                 </a>
                             </div>
