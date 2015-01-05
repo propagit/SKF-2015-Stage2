@@ -1,7 +1,7 @@
 <h1 class="heading_content_page center">Festival Sponsors</h1> 
 
 <p style="text-align:center">
-<img src="<?=base_url();?>uploads/sponsors/headerSponsors.png" style="width:auto;">
+<img src="<?=base_url()?>uploads/sponsors/headerSponsors.png" style="width:auto;">
 </p>
 
 <div class="sponsors">
@@ -17,10 +17,10 @@
         <h3>Media Partners</h3>
         <div class="span6 remove-gutters rt">
        	 	<a href="http://www.iheart.com" target="_blank"><img src="<?=base_url()?>uploads/sponsors/iheartRadio.png"></a>
-            <span class="gap"></span>
+            <div class="gap"></div>
         </div>
         <div class="span6 remove-gutters lt">
-        	<span class="gap"></span>
+        	<div class="gap"></div>
        	 	<a href="#" target="_blank"><img src="<?=base_url()?>uploads/sponsors/kiss101.1.png"></a>
         </div>
     </div>

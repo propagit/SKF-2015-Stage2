@@ -877,7 +877,7 @@ input[type="text"]:-ms-input-placeholder {
 	float:left;	
 	width:100%;
 }
-.sponsors span.gap{
+.sponsors .gap{
 	width:40px;
 	display:inline-block;	
 }
@@ -1471,7 +1471,7 @@ input[type="text"]:-ms-input-placeholder {
 	.sponsors .rt{
 		text-align:center;	
 	}
-	.sponsors span.gap{
+	.sponsors .gap{
 		width:0;	
 	}
 	.sponsors .span12 img,

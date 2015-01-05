@@ -8,16 +8,13 @@
 		<div class="row-fluid">
         	<?php # a hack to accomodate festiva map and Public Transport ?>
             
-            <?php if($page['id'] == 93 || $page['id'] == 98) { ?>
+            <?php if($page['id'] == 93 || $page['id'] == 98 || $page['id'] == 92) { ?>
             <div class="span12" id="for-content">
             	<?php
 				# trasport page - was build under the pump so build in a separate page as prev template was all image - optimize to cms controlled in future
 				
 				if($page['id'] == 98){
 					$this->load->view('pages/public_transport');
-				#}else if($page['id'] == 92){
-					# to test the tempate for sponsors
-					#$this->load->view('pages/sponsors_template');
 				}else{
 					if(isset($page['content']))  
 					{
