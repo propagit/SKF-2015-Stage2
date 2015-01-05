@@ -35,7 +35,7 @@ jQuery('#menugap').addClass('hidemenu');
              	<div class="row-fluid">            
                		<div class="span6">
                     	<p class="heading_content_page"><?php echo $band['band_name']?></p>
-                 		<p class="subheading_content_page" style="margin-top:10px"><?php echo date('d l F',strtotime($band['event_date']));?></p>
+                 		<p class="subheading_content_page" style="margin-top:10px"><?php echo date('l d F',strtotime($band['event_date']));?></p>
                  		<p class="subheading2_content_page" style="margin-top:10px"><?php echo $band['start_time']; if($band['end_time'] != '') { echo ' - '.$band['end_time'] ; } ?>
                         	<br>
                             <?php echo $band['venue'];?>
