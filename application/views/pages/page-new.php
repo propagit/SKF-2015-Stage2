@@ -6,15 +6,21 @@
 </style>
 <div class="container white-container">
 		<div class="row-fluid">
-        	<?php # a hack to accomodate festiva map ?>
+        	<?php # a hack to accomodate festiva map and Public Transport ?>
             
-            <?php if($page['id'] == 93) { ?>
+            <?php if($page['id'] == 93 || $page['id'] == 98) { ?>
             <div class="span12" id="for-content">
-            	<?php 
-				if(isset($page['content']))  
-		 		{
-			 		echo $page['content'];
-		 		}
+            	<?php
+				# trasport page - was build under the pump so build in a separate page as prev template was all image - optimize to cms controlled in future
+				
+				if($page['id'] == 98){
+					$this->load->view('pages/public_transport');
+				}else{
+					if(isset($page['content']))  
+					{
+						echo $page['content'];
+					}
+				}
 				?>
             </div>
             <?php }else{ ?>
