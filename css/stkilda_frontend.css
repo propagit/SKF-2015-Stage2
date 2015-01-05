@@ -780,6 +780,58 @@ input[type="text"]:-ms-input-placeholder {
 	display:block;	
 }
 
+/*Transport Page*/
+.tbox{
+	font-size:18px;
+	margin-bottom:20px;
+	float:left;
+}
+
+.tbox ul{
+	list-style:none;
+	margin-left:0;	
+}
+.tbox ul li{
+	line-height:26px;
+	width:100%;
+	float:left;
+}
+.tbox ul li span{
+	float:left;
+	display:inline-block;	
+}
+.tbox ul li span.lt{
+	width:15%;
+	font-weight:600;
+}
+.tbox ul li span.rt{
+	width:80%
+}
+.tbox h2{
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+.tbox .pt-icon{
+	width:100px; 
+	float:left;	
+}
+.tbox .pt-icon img{
+	width:auto !important;
+}
+.tbox .pt-desc{
+	margin-left:100px;	
+}
+.train{
+	color:#0087cc;	
+}
+.tram{
+	color:#76b82a;	
+}
+.bus{
+	color:#ef7d00;	
+}
+
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
 .name-on-top{color: #FFFFFF;font-size: 18px;font-weight: 700;margin-top: 76px; position: absolute;text-align: center;width: inherit;}
