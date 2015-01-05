@@ -15,6 +15,9 @@
 				
 				if($page['id'] == 98){
 					$this->load->view('pages/public_transport');
+				#}else if($page['id'] == 92){
+					# to test the tempate for sponsors
+					#$this->load->view('pages/sponsors_template');
 				}else{
 					if(isset($page['content']))  
 					{
