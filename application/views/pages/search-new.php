@@ -35,7 +35,7 @@
                                 <a href="<?=base_url()?>band/<?=$band['id']?>"><img src="<?=base_url()?>uploads/bands/<?=$dir?>/<?=$band['photo']?>" alt="" /></a>
                                 </div>
          						<p class="heading_content_page" style="margin-top:15px;"><?php echo $band['band_name']?></p>
-                 				<p class="subheading_content_page" style="margin-top:10px"><?php echo date('d l, M Y',strtotime($band['event_date']));?></p>
+                 				<p class="subheading_content_page" style="margin-top:10px"><?php echo date('l d F',strtotime($band['event_date']));?></p>
                  				<p class="subheading2_content_page" style="margin-top:10px"><?php echo $band['start_time']; if($band['end_time'] != '') { echo ' - '.$band['end_time'] ; } ?></p>
                  				<?php if($band['venue'] != '' && $band['venue'] != 'not specified') { ?><p class="subheading2_content_page"><?php echo $band['venue'] ; ?></p><?php } ?>
                  				<?php if($band['extra_details'] != '') { ?><div class="extra_details"><?php echo $band['extra_details'] ; ?></div><?php } ?>

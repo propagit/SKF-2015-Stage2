@@ -26,11 +26,11 @@ function validateEmailRight()
 
 <hr class="page-hr push">
 
-<div class="right-list">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
+<div class="right-list"><a href="<?=base_url();?>Program">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></a></div>
 
 <hr class="page-hr">
 
-<div class="right-list">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></div> 
+<div class="right-list"><a href="<?=base_url();?>page/pages/91">VOTE FOR A BAND ON THE <span class="program-bold">NEW MUSIC STAGE</span></a></div> 
 
 <hr class="page-hr">
 
