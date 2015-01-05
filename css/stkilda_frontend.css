@@ -768,7 +768,17 @@ input[type="text"]:-ms-input-placeholder {
 .festival-page-links .last{
 	text-align:right;
 }
-
+.social-link span{
+	display:none;
+	position: absolute;
+	background-color: #fff6dc;
+	margin-top: 22px;
+	color: #f18800;
+	font-size: 11px;	
+}
+.social-link:hover span{
+	display:block;	
+}
 
 @media (min-width:  1200px) {
 .photo-band	{float:left;width: 25%;/*width:25%;width:16.66666666666667%; width:33.33333333333333%;*/height: 192px;	}
