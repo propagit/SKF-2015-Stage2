@@ -59,6 +59,7 @@
 				<div class="band-detail">
 					<?php echo $band['start_time']; if($band['end_time'] != '') { echo ' - '.$band['end_time'] ; } ?><br/>
 					<?php if($band['venue'] != '' && $band['venue'] != 'not specified') {  echo $band['venue'] ; } ?><br/>
+                    <?=$band['extra_details'];?>
 				</div>
 			</div>
 			<?
