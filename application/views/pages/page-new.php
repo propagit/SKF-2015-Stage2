@@ -6,6 +6,19 @@
 </style>
 <div class="container white-container">
 		<div class="row-fluid">
+        	<?php # a hack to accomodate festiva map ?>
+            
+            <?php if($page['id'] == 93) { ?>
+            <div class="span12" id="for-content">
+            	<?php 
+				if(isset($page['content']))  
+		 		{
+			 		echo $page['content'];
+		 		}
+				?>
+            </div>
+            <?php }else{ ?>
+        
 			<div class="span8" id="for-content">
 				<?php 
 				if(isset($page['content']))  
@@ -20,6 +33,8 @@
             	<div class="visible-phone" style="height:30px;"></div>
 				<?=$this->load->view('common/right-page');?>
             </div>
+            
+            <?php }  # if($page['id'] == 93) # the festival map page?>
 		</div>		
 </div>
 
