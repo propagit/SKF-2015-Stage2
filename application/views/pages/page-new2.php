@@ -100,7 +100,7 @@
 					<?php echo $band['band_name']?>
 				</div>	
 				<div class="band-gap"></div>
-				<div class="band-date"><?php echo date('d l Y',strtotime($band['event_date']));?></div>
+				<div class="band-date"><?php echo date('d l, M Y',strtotime($band['event_date']));?></div>
 				<div class="band-gap"></div>
 				<div class="band-detail">
 					<?php echo $band['start_time']; if($band['end_time'] != '') { echo ' - '.$band['end_time'] ; } ?><br/>

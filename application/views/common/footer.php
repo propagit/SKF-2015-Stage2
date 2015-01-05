@@ -40,17 +40,18 @@
                         <div class="hidden-phone quick-links">
                             <hr class="footer-hr" />
                             <div class="row-fluid">
-                                <div class="span3">
-                                    <div class="footer_text"><a href="<?=base_url()?>page/pages/29">Contact Us</a></div>
+                            	<div class="span3" >
+                                    <div class="footer_text footer_text_left" ><a target="_blank" href="http://stkildafestival.induction.integralcs.com/">Safety Induction</a></div>
                                 </div>
+                               
                                 <div class="span3" >
                                     <div class="footer_text footer_text_right"><a target="_blank" href="http://www.portphillip.vic.gov.au">City of Port Phillip</a></div>
                                 </div>
                                 <div class="span3" >
                                     <div class="footer_text footer_text_center" ><a href="<?=base_url()?>page/pages/117">Filming and Photography Permits</a></div>
                                 </div>
-                                <div class="span3" >
-                                    <div class="footer_text footer_text_left" ><a target="_blank" href="http://stkildafestival.induction.integralcs.com/">Safety Induction</a></div>
+                                <div class="span3">
+                                    <div class="footer_text"><a href="<?=base_url()?>page/pages/29">Contact Us</a></div>
                                 </div>
                             </div>
                             

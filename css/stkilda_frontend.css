@@ -311,7 +311,7 @@ input[type="text"]:-ms-input-placeholder {
 .header-submenu  {
     display:  none;
     position:  absolute;
-    width:  186px;
+    width:  205px;
     z-index:  10;
     margin-top: 22px;
     background: #f18800;
@@ -623,7 +623,8 @@ input[type="text"]:-ms-input-placeholder {
 .quick-links .footer_text{
 	text-align:center;
 	text-transform:uppercase;
-	font-weight:500;
+	font-weight:600;
+	font-size:13px;
 }
 .footer_text a:hover{
 	text-decoration:none;	
@@ -1026,7 +1027,7 @@ input[type="text"]:-ms-input-placeholder {
 	.band-search-wrapper .band-name
 	 {
     
-		color: #7ec5ad;
+		color: #dc013d;
     
 		font-size: 16px;
     
@@ -1273,7 +1274,7 @@ input[type="text"]:-ms-input-placeholder {
 	.band-search-wrapper .band-name
 	 {
     
-		color: #7ec5ad;
+		color: #dc013d;
     
 		font-size: 16px;
     
@@ -1519,7 +1520,7 @@ input[type="text"]:-ms-input-placeholder {
 .band-search-wrapper .band-name
  {
     
-	color: #7ec5ad;
+	color: #dc013d;
     
 	font-size: 16px;
     

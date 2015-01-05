@@ -21,7 +21,7 @@
                        }
                       }	
                       echo '<div class="span2 header-menu '.$link_pos_menu.'">
-                                <div class="header-menu-title '.$link_pos.'"><a href="'.$url3.'">'.$menu['name'].'</a></div>';
+                                <div class="header-menu-title '.$link_pos.'"><a href="javascript:void(0)">'.$menu['name'].'</a></div>';
                       
                       /* check for submenu */
                       $links = $this->Menu_model->get_links($menu['id'],0);

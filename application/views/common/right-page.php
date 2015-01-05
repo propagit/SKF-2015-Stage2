@@ -24,7 +24,7 @@ function validateEmailRight()
 </script>
 <?php $this->load->view('common/calendar_panel');?>
 
-<hr class="page-hr push fw">
+<hr class="page-hr push">
 
 <div class="right-list">VIEW/DOWNLOAD <span class="program-bold">THE PROGRAM</span></div>
 
