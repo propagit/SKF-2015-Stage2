@@ -1,7 +1,7 @@
 <style>
 #for-content img
 {
-	width:100%;
+	/*width:100%;*/
 }
 </style>
 <div class="container white-container">
