@@ -48,8 +48,8 @@ jQuery('#menugap').addClass('hidemenu');
                         </p>
                         <div style="display:none;">
                         <?php
-							echo '[this is a test    .]<br>';
-							echo '['.preg_replace('/\s+/', '','this is a test    .').']';
+							#echo '[this is a test    .]<br>';
+							#echo '['.preg_replace('/\s+/', '','this is a test    .').']';
 						?>
                         </div>
                         <div id="band_social">
