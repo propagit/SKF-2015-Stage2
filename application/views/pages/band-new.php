@@ -46,6 +46,12 @@ jQuery('#menugap').addClass('hidemenu');
                             <a  href="http://<?php echo $band['website'];?>" target="_blank"><?php echo $band['website'];?></a>
                             <br><br>
                         </p>
+                        <div style="display:none;">
+                        <?php
+							echo '[this is a test    .]<br>';
+							echo '['.preg_replace('/\s+/', '','this is a test    .').']';
+						?>
+                        </div>
                         <div id="band_social">
 					   		<?php if($band['facebook'] != '') { ?><div id="facebook_icon" class="social-link" style="float:left;"><span>Facebook</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['facebook']) ; ?>" target="_blank"><i  class="fa fa-facebook social-logo" ></i></a></div><?php } ?>
                        		<?php if($band['twitter'] != '') { ?><div id="twitter_icon" class="social-link" style="margin-left:30px;float:left;"><span>Twitter</span><a class="social-a" href="https://<?php echo preg_replace('/\s+/', '',$band['twitter']) ; ?>" target="_blank"><i class="fa fa-twitter social-logo"></i></a></div><?php } ?>
