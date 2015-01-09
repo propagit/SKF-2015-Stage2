@@ -50,15 +50,22 @@ jQuery('#menugap').addClass('hidemenu');
                         <?php
 							#echo '[this is a test    .]<br>';
 							#echo '['.preg_replace('/\s+/', '','this is a test    .').']';
+							$http = array('http://','https://');
 						?>
                         </div>
                         <div id="band_social">
-					   		<?php if($band['facebook'] != '') { ?><div id="facebook_icon" class="social-link" style="float:left;"><span>Facebook</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['facebook']) ; ?>" target="_blank"><i  class="fa fa-facebook social-logo" ></i></a></div><?php } ?>
-                       		<?php if($band['twitter'] != '') { ?><div id="twitter_icon" class="social-link" style="margin-left:30px;float:left;"><span>Twitter</span><a class="social-a" href="https://<?php echo preg_replace('/\s+/', '',$band['twitter']) ; ?>" target="_blank"><i class="fa fa-twitter social-logo"></i></a></div><?php } ?>
-                        	<?php if($band['youtube_channel'] != '') { ?><div id="youtube_icon" class="social-link" style="margin-left:30px;float:left;"><span>Youtube</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['youtube_channel']) ; ?>" target="_blank"><i class="fa fa-youtube social-logo"></i></a></div><?php } ?>
-                        	<?php if($band['myspace'] != '') { ?><div id="myspace_icon" class="social-link" style="margin-left:30px;float:left;"><span>My Space</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['myspace']) ; ?>" target="_blank"><img src="<?=base_url()?>images/myspace.png" alt="myspace" /></a></div><?php } ?>
-                        	<?php if($band['reverbnation'] != '') { ?><div id="soundcloud_icon" class="social-link" style="margin-left:30px;float:left;"><span>Sound Cloud</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['reverbnation']) ; ?>" target="_blank"><i class="fa fa-soundcloud social-logo"></i></a></div><?php } ?>
-                        	<?php if($band['bandcamp'] != '') { ?><div id="other_icon" class="social-link" style="margin-left:30px;float:left;"><span>Band Camp</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',$band['bandcamp']) ; ?>" target="_blank"><img src="<?=base_url()?>images/other.png" alt="" /></a></div><?php } ?>
+					   		<?php if($band['facebook'] != '') { ?>
+                            <div id="facebook_icon" class="social-link" style="float:left;"><span>Facebook</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['facebook'])); ?>" target="_blank"><i  class="fa fa-facebook social-logo" ></i></a></div><?php } ?>
+                       		<?php if($band['twitter'] != '') { ?>
+                            <div id="twitter_icon" class="social-link" style="margin-left:30px;float:left;"><span>Twitter</span><a class="social-a" href="https://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['twitter'])) ; ?>" target="_blank"><i class="fa fa-twitter social-logo"></i></a></div><?php } ?>
+                        	<?php if($band['youtube_channel'] != '') { ?>
+                            <div id="youtube_icon" class="social-link" style="margin-left:30px;float:left;"><span>Youtube</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['youtube_channel'])) ; ?>" target="_blank"><i class="fa fa-youtube social-logo"></i></a></div><?php } ?>
+                        	<?php if($band['myspace'] != '') { ?>
+                            <div id="myspace_icon" class="social-link" style="margin-left:30px;float:left;"><span>My Space</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['myspace'])) ; ?>" target="_blank"><img src="<?=base_url()?>images/myspace.png" alt="myspace" /></a></div><?php } ?>
+                        	<?php if($band['reverbnation'] != '') { ?>
+                            <div id="soundcloud_icon" class="social-link" style="margin-left:30px;float:left;"><span>Sound Cloud</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['reverbnation'])) ; ?>" target="_blank"><i class="fa fa-soundcloud social-logo"></i></a></div><?php } ?>
+                        	<?php if($band['bandcamp'] != '') { ?>
+                            <div id="other_icon" class="social-link" style="margin-left:30px;float:left;"><span>Band Camp</span><a class="social-a" href="http://<?php echo preg_replace('/\s+/', '',str_replace($http, '',$band['bandcamp'])) ; ?>" target="_blank"><img src="<?=base_url()?>images/other.png" alt="" /></a></div><?php } ?>
                      	</div>
                         <div style="clear:both; height:15px;"></div>
                         
