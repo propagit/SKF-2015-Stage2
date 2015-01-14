@@ -1461,6 +1461,7 @@ input[type="text"]:-ms-input-placeholder {
 	.festival-page-links li a{
 		font-size:10px;	
 	}
+	
 }
 @media (max-width: 1200px)
 {
@@ -1476,6 +1477,9 @@ input[type="text"]:-ms-input-placeholder {
 	.sponsors .lt,
 	.sponsors .rt{
 		text-align:center;	
+	}
+	.sponsors .sponsors-span4offset{
+		display:none;	
 	}
 	.sponsors .gap{
 		width:0;	
@@ -1714,8 +1718,10 @@ input[type="text"]:-ms-input-placeholder {
 .festival-page-links li.last{
 	text-align:center;	
 }
+
 /*band-search*/
 }
+
 @media (max-width: 615px) {
     
 .social_icons {

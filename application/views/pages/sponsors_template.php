@@ -1,3 +1,7 @@
+<div class="container white-container">
+		<div class="row-fluid"> 
+        <div class="span12" id="for-content">
+
 <h1 class="heading_content_page center">Festival Sponsors</h1> 
 
 <p style="text-align:center">
@@ -33,7 +37,7 @@
         <div class="span4 remove-gutters">
        	 	<a href="http://www.5seeds.com.au" target="_blank"><img src="<?=base_url()?>uploads/sponsors/5Seeds.png"></a>
         </div>
-        <div class="span4 remove-gutters lt">
+        <div class="span4 remove-gutters lt half-width">
        	 	<a href="http://slimchillers.com" target="_blank"><img src="<?=base_url()?>uploads/sponsors/slimChillers.jpg"></a>
         </div>
         
@@ -43,9 +47,24 @@
         <div class="span4 remove-gutters">
        	 	<a href="http://www.liptonicetea.com/en-AU/" target="_blank"><img src="<?=base_url()?>uploads/sponsors/liptonIceTea.png"></a>
         </div>
-        <div class="span4 remove-gutters lt">
+        <div class="span4 remove-gutters lt half-width">
        	 	<a href="#" target="_blank"><img src="<?=base_url()?>uploads/sponsors/Vanessa.png"></a>
         </div>
+        
+        <div class="span4 remove-gutters rt">
+       	 	<a href="http://www.thechiaco.com.au" target="_blank"><img src="<?=base_url()?>uploads/sponsors/ChiaPod-Logo.png"></a>
+        </div>
+        <div class="span4 remove-gutters">
+       	 	<a href="http://www.mistermixer.com.au" target="_blank"><img src="<?=base_url()?>uploads/sponsors/mister_mixer.jpg"></a>
+        </div>
+        <div class="span4 remove-gutters lt half-width">
+       	 	<a href="https://www.activeapril.vic.gov.au" target="_blank"><img src="<?=base_url()?>uploads/sponsors/ActiveApril.png"></a>
+        </div>
+        <div class="span4 remove-gutters sponsors-span4offset">&nbsp;</div>
+        <div class="span4 remove-gutters">
+        	<a href="https://www.facebook.com/SisMadeThis?fref=ts" target="_blank"><img src="<?=base_url()?>uploads/sponsors/SISMADETHIS-STICKERS.png"></a>
+        </div>
+        <div class="span4 remove-gutters sponsors-span4offset">&nbsp;</div>
     </div>
 
 
@@ -94,3 +113,6 @@
         </div>
     </div>
 </div>
+
+
+</div></div></div>

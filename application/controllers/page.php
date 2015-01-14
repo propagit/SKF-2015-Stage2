@@ -2205,5 +2205,18 @@ Market Trader Checklist: <a href='http://www.stkildafestival.com.au/callforentri
 		  redirect(base_url());
 	  }
 	}
+	
+	function sponsors()
+	{
+		
+		$data['menus'] = $this->Menu_model->get_menus();
+		$data['footeradspace'] = $this->News_sticker_model->get_footer_banners();
+        $this->load->view('common/header',$data);
+
+		$this->load->view('pages/sponsors_template');
+
+		$this->load->view('common/footer');	
+	}
+
 }
 ?>
