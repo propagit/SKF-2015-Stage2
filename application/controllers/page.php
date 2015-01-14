@@ -2206,7 +2206,7 @@ Market Trader Checklist: <a href='http://www.stkildafestival.com.au/callforentri
 	  }
 	}
 	
-	function sponsors()
+	function _sponsors()
 	{
 		
 		$data['menus'] = $this->Menu_model->get_menus();
