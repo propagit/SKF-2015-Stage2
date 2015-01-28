@@ -3,6 +3,12 @@
 {
 	/*width:100%;*/
 }
+#surveyMonkeyInfo{
+	border:none !important;	
+}
+#sm_e_s{
+	height:1062px;	
+}
 </style>
 <div class="container white-container">
 		<div class="row-fluid">
@@ -33,6 +39,14 @@
 		 		}
 				?>
 				
+                <?php 
+					# survey	
+					if($page['id'] == 91){ 
+				?>
+                <div id="surveyMonkeyInfo"><div>
+				<script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=Ws70N2GLBNeVPTcaSVm_2bMg_3d_3d"> </script></div>
+                Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
+                <?php } ?> 
 				
 			</div>
             <div class="span4">
