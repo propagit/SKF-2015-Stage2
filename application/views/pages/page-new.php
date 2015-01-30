@@ -43,9 +43,14 @@
 					# survey	
 					if($page['id'] == 91){ 
 				?>
-                <div id="surveyMonkeyInfo"><div>
-				<script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=Ws70N2GLBNeVPTcaSVm_2bMg_3d_3d"> </script></div>
-                Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
+                <div id="surveyMonkeyInfo"><div><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=mrMYD7NUSzO_2b7WHuY4_2bUmw_3d_3d"> </script></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
+                <?php } ?> 
+                
+                <?php 
+					# comp	
+					if($page['id'] == 145){ 
+				?>
+                <div id="surveyMonkeyInfo"><div><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=Pk1cMsque3qujwi3omHbOw_3d_3d"> </script></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
                 <?php } ?> 
 				
 			</div>
